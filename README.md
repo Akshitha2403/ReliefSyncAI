@@ -1,16 +1,46 @@
-# React + Vite
+# ReliefSync AI Prototype
+## Overview
+ReliefSync AI is a responsive prototype focused on emergency support coordination with an interactive chatbot assistant and core workflow modules.
+## 🧭 How to Explore the Prototype
+Recommended flow for judges:
+1. Open the live prototype link
+2. Start from Login Page
+3. Navigate through the main modules:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   * Dashboard
+   * Requests Page
+   * Volunteers Page
+   * Chatbot Interaction
+4. Test the chatbot and explore the user flow.
+## 📂 Prototype Structure
 
-Currently, two official plugins are available:
+```bash
+src/
+ ├── pages/
+ │   ├── LoginPage.jsx
+ │   ├── RequestsPage.jsx
+ │   └── VolunteersPage.jsx
+ ├── components/
+ └── App.jsx
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+public/
+dist/
+index.html
+vite.config.js
+```
+## 🤖 Chatbot Demo
+The prototype includes an interactive chatbot demonstrating conversational assistance and emergency support interactions as part of the product concept.
+## ▶️ Running Locally
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+## 📽 Demo Resources
+* Live Prototype Link
+* GitHub Repository
+* Demo Video
+## 🔗 Submission Links
+**Live Prototype:** Add your deployed link here
+**GitHub Repository:** Add your repo link here
+**Demo Video (Optional):** Add link here
